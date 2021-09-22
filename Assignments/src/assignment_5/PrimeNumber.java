@@ -2,6 +2,7 @@ package assignment_5;
 
 public class PrimeNumber {
 public static void main(String[] args) {
+	System.out.println("Prime Numbers Between 15 - 80 are :");
 	for(int i=15;i<=80;i++) {
 		if(isPrime(i)) {
 			System.out.print(i+ "  ");
