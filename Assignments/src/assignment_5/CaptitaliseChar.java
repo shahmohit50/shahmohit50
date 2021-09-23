@@ -14,7 +14,7 @@ public static String captialize(char ch) {
 	String str = "";
 	if((ch >= 'a'
 			&& ch <= 'z')){
-		str+= Character.toString(Character.toUpperCase(ch));	
+		str+= Character.toString(ch-32);	
 	}else {
 		str += Character.toString(ch);
 	}
