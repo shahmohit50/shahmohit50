@@ -10,6 +10,7 @@ public class RemoveElement {
 				for(int j =i+1;j<arr.length;j++,i++) {
 					arr[i] = arr[j];
 				}
+				arr[arr.length-1] = 0;
 				break;
 			}
 		}
