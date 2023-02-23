@@ -11,3 +11,4 @@ public class sum {
 		System.out.println("Sum of array is "+sum );
 	}
 }
+//hi
